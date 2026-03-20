@@ -25,6 +25,8 @@ import java.util.List;
 /**
  * A parallel, finite/bounded source function, which emits the records given to it during construction.
  */
+
+
 public class ParallelCollectionSource<T> extends RichParallelSourceFunction<T> {
 
   private List<T> input;
